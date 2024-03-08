@@ -27,7 +27,7 @@ for i = 1:num_images
     bw(cc.PixelIdxList{max_idx}) = true;
     
     % Get region properties of connected component
-    props = regionprops(bw, 'MajorAxisLength','MinorAxisLength','Eccentricity');
+    props = regionprops(bw, 'MajorAxisLength','MinorAxisLength','Eccentricity','Centroid');
     diameter(i) = props.MajorAxisLength*apix;
     eccentricity(i) = props.Eccentricity;
     major_lengths(i) = props.MajorAxisLength*apix;
