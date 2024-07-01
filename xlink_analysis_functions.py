@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 
 """
-Title: Crosslink Distance Analysis in Protein Structures
+Title: Intramolecular Crosslinking Data Analysis
 Author: Zachary Berndsen, ChatGPT
 Date: April 2024
 Description: 
