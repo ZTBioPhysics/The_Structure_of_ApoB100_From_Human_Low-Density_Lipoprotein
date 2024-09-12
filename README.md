@@ -11,3 +11,6 @@ The Python script xlink_analysis_script will reproduce the crosslinking analysis
 - the module file xlink_analysis_functions is imported and supplies all the functions needed in the script
 - the 4 CSV files contain the crosslinking data organized by residue pairs with Ca Distances for both apoB100 models and the average of the two. They also contain the spectral count, sequence distance, and domain associations for each unique crosslinked. 
 - the file all_commoni_xlinks_small_and_large.csv contains all crosslinks that were found in common between the two independent datasets and the spectral count column is the average spectral count for that common crosslink between the two datasets
+
+The code was developed and tested on a MacBook Air M2 with 24GB of memory running macOS Sonoma 14.6.1 and python v. 3.9.13 and MatLab v. R2022a with the Image Processing ToolBox
+- typical runtimes for both MatLab and Python scripts are a few seconds on our system
