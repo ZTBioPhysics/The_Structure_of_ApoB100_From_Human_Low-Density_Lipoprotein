@@ -1,7 +1,7 @@
 % Load image stack
 stack = ReadMRC('LDL_200Classes.mrc');
 num_images = length(stack(1,1,:));
-apix = 450/(length(stack(:,1,1)))*1.09;
+apix = 1.916015625;
 
 % Initialize variables for storing diameter and eccentricity
 diameter = zeros(1,num_images);
