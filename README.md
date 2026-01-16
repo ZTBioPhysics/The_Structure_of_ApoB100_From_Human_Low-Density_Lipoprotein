@@ -4,7 +4,13 @@ Code and data files to reproduce the custom image analysis and crosslink analysi
 
 ## Citation
 
-> [Paper citation - add full reference here]
+> **The structure of apolipoprotein B100 from human low-density lipoprotein**
+>
+> Berndsen ZT, Cassidy CK.
+>
+> *Nature.* 2025 Feb;638(8051):836-843.
+>
+> DOI: [10.1038/s41586-024-08467-w](https://doi.org/10.1038/s41586-024-08467-w) | PMID: 39662503 | PMCID: PMC11839476
 
 ## Repository Structure
 
