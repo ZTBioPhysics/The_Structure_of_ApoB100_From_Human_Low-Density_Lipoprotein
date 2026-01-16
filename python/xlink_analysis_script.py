@@ -8,6 +8,12 @@ Description:
     This script can be run to create all the PhoX crosslinking plots and tables that appear in the paper
 """
 
+import sys
+from pathlib import Path
+
+# Add python directory to path if running from repo root
+sys.path.insert(0, str(Path(__file__).parent))
+
 import xlink_analysis_functions as xlf
 import matplotlib.pyplot as plt
 import pandas as pd
@@ -20,10 +26,11 @@ apob_seq = 'MDPPRPALLALLALPALLLLLLAGARAEEEMLENVSLVCPKDATRFKHLRKYTYNYEAESSSGVPGTA
 ##############################################################################################################################################################################
 
 # start from annotated csv file
+# Note: Run this script from the repository root directory, or adjust paths accordingly
 
-xlinks_all = 'all_common_xlinks_small_and_large.csv'
-# xlinks_small = 'all_xlinks_small.csv'
-# xlinks_large = 'all_xlinks_large.csv'
+xlinks_all = 'data/all_common_xlinks_small_and_large.csv'
+# xlinks_small = 'data/all_xlinks_small.csv'
+# xlinks_large = 'data/all_xlinks_large.csv'
 
 df = xlf.read_csv_with_header(xlinks_all)
 

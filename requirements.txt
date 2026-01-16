@@ -1,0 +1,3 @@
+# Python dependencies for crosslink analysis
+pandas>=1.5.0
+matplotlib>=3.5.0
